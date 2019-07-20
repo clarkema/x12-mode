@@ -7,7 +7,7 @@ An Emacs major mode for working with X12 EDI files.
  1. Copy `x12-mode.el` to somewhere in your `load-path`
  2. Add the following to `$HOME/.emacs.d/init.el`:
 
-```(elisp)
+```elisp
 (autoload 'x12-mode "x12-mode" "" t)
 ;; Add more file extensions as required
 (add-to-list 'auto-mode-alist '("\\.x12\\'" . x12-mode))
